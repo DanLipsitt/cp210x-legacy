@@ -1,0 +1,5 @@
+cp210x-legacy (3.13.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- nobody <nobody@unknown>  Thu, 24 Aug 2017 06:11:52 +0000
