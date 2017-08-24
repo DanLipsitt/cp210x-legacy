@@ -23,3 +23,16 @@
 #override_dh_auto_configure:
 #	dh_auto_configure -- #	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
 
+override_dh_clean:
+	dh_clean
+
+override_dh_auto_clean:
+
+override_dh_auto_build:
+	:
+
+override_dh_auto_install:
+	dh_install $(driver-dir)/cp210x.c $(driver-dir)/Makefile /usr/src/cp210x-legacy-$(version)/
+	dh_dkms
+
+override_dh_auto_install_indep: debian/cp210x-legacy-dkms.dkms
