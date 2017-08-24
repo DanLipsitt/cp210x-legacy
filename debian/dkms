@@ -1,5 +1,5 @@
 PACKAGE_NAME="cp210x-legacy"
-PACKAGE_VERSION="#VERSION#"
+PACKAGE_VERSION="#MODULE_VERSION#"
 BUILT_MODULE_NAME[0]="cp210x"
 DEST_MODULE_LOCATION[0]="/kernel/drivers/usb/serial" # required but ignored
 AUTOINSTALL="yes"

@@ -8,8 +8,8 @@ Homepage: <insert the upstream URL, if relevant>
 #Vcs-Git: https://anonscm.debian.org/collab-maint/cp210x-legacy.git
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/cp210x-legacy.git
 
-Package: cp210x-legacy
+Package: cp210x-legacy-dkms
 Architecture: any
-Depends: ${misc:Depends}, dkms
+Depends: ${misc:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
