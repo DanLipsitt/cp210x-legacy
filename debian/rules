@@ -16,9 +16,11 @@ override_dh_auto_clean:
 override_dh_auto_build:
 
 override_dh_auto_install:
+	dh_install cp210x.c Makefile /usr/src/cp210x-legacy-$(DEB_VERSION_UPSTREAM)
 
 override_dh_clean:
 	rm -f debian/install
+	rm -rf debian/cp210x-legacy-dkms
 	dh_clean
 
 override_dh_dkms:
