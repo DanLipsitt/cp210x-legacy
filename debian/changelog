@@ -1,5 +1,5 @@
-cp210x-legacy (3.13.0-1) unstable; urgency=medium
+cp210x-legacy (3.13.0-1ubuntu1) xenial; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
- -- nobody <nobody@unknown>  Thu, 24 Aug 2017 06:11:52 +0000
+ -- Dan Lipsitt <danlipsitt+launchpad@gmail.com>  Thu, 24 Aug 2017 17:20:26 -0700
